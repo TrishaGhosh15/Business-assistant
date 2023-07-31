@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashadee</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i
+          ><!-- closing icon -->
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="empower.html">Empower</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- <i class="fa fa-bars" onclick="showMenu()"></i>menue icon -->
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+     <h1>About us </h1>
+    </section>
+<!-- About us content  -->
+
+
+<section class="about-us">
+  <div class="row">
+    <div class="about-col">
+<h1>Description</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores suscipit eligendi est tenetur labore fuga asperiores ad saepe molestiae, magnam iusto mollitia veniam quidem ipsum voluptates, autem cumque earum quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, omnis!</p>
+   <a href="Blog.html" class="hero-btn red-btn">EXPLORE NOW</a>
+</div>
+
+    <div class="about-col">
+<img src="images/background2.png">
+    </div>
+  </div>
+
+
+</section>
+
+
+
+
+    
+    
+<section class="footer">
+  <h4>
+    About Us 
+  </h4>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Numquam, maiores!
+  </p>
+<div class ="icons">
+  <i class =" fa fa-facebook"></i>
+  <i class =" fa fa-twitter"></i>
+  <i class =" fa fa-instagram"></i>
+  <i class =" fa fa-linkedin"></i>
+ 
+</div>
+</section>
+
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+      // var navLinks = document.getElementById("navLlinks");
+
+      // function showMenu(){
+      //     navLinks.style.right = "0";
+      // }
+      // function hideMenu(){
+      //     navLinks.style.right = ";
+
+      // }f
+      function showMenu() {
+        document.getElementById("navLinks").style.width = "100%";
+      }
+
+      function hideMenu() {
+        document.getElementById("navLinks").style.width = "0";
+      }
+    </script>
+  </body>
+</html>
